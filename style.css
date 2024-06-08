@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://images.unsplash.com/photo-1625225230517-7426c1be750c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvcm18ZW58MHx8MHx8fDA%3D);
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.container {
+  background-color: rgba(22, 70, 49, 0.3);
+  width: 60%;
+  color: black;
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: start;
+  radious: 2px;
+}
+
+.distance {
+  margin: 16px 0;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  margin: 18px 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#submit {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.submit {
+  text-align: center;
+}

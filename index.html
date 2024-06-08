@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">App survey form</h1>
+        <p class="description">Please fill out the survey form to regester</p>
+        <form id="main-page">
+            <!--name-->
+            <label for="name" id="name-label" class="label1">Name:</label>
+            <input type="text" id="name" placeholder="Write your name please" required>
+
+            <!--email-->
+            <label for="email" id="email-label" class="label1">Email:</label>
+            <input type="email" id="email" placeholder="Your email address">
+
+            <!--age-->
+            <label for="number" id="age-label" class="label1">Age:</label>
+            <input type="number" id="age" placeholder="Pleas Enter your age" min="15" max="80">
+
+            <!--label-type :radio-->
+            <label for="">Would you like to recommend our app to youer friends? </label>
+            <div class="distance">
+                <label for="definitly">Definitly</label>
+                <input type="radio" id="definitly" name="choice-option">
+
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="choice-option">
+
+                <label for="notsure">Not sure</label>
+                <input type="radio" id="notsure" name="choice-option">
+            </div>
+            <!--second Q-->
+            <label for="dropdown">What Is Level Of your Education?</label>
+            <select  id="dropdown">
+                <option value="level">Select one</option>
+                <option value="level">PHD</option>
+                <option value="level">Master</option>
+                <option value="level">Bachelor</option>
+            </select>
+            <!--3th Q-->
+            <label for="">What would you like to see improved?</label>
+            <div class="distance">
+                <label for="assignments">Assignments</label>
+                <input type="checkbox" id="assignments" name="choose">
+
+                <label for="labs">Labs</label>
+                <input type="checkbox" id="labs" name="choose">
+
+                <label for="lectures">Lectures</label>
+                <input type="checkbox" id="lectures" name="choose">
+
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" placeholder="Enter your comments here"></textarea>
+            </div>
+             
+           <div class="submit">
+            <a href="./submit.html" id="submit">Submit </a>
+           </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
